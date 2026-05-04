@@ -322,7 +322,7 @@ Keep this updated as work progresses. Claude Code should update it when a phase 
 - [ ] Phase 2.5 — Imbalance study
 - [x] Phase 2.6 — Cluster-then-predict (2026-05-04; K=3, ClusterPredict AUC 0.7585 vs global 0.7590; ceiling NOT broken; Cluster 1 = 100% churn reactivators — automatic trigger rule)
 - [ ] Phase 3.1 — SHAP analysis
-- [ ] Phase 3.2 — Master notebook
+- [x] Phase 3.2 — Master notebook (2026-05-04; 00_master_submission.ipynb 42 cells Colab-ready; ISSUES_AND_FIXES.md 6 entries; PROJECT_STORY.md 4,362 words; pushed to https://github.com/Eliekh2/315-REPO)
 - [ ] Phase 3.3 — Research paper
 - [ ] Phase 3.4 — Slides
 - [ ] Phase 3.5 — AI usage log

@@ -1,0 +1,66 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Source data lives outside the repo (../Datasets selected/)
+# Intermediate / processed data
+data/interim/*
+!data/interim/.gitkeep
+# Phase 3.2: processed files committed for Colab access (all < 50 MB)
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/customers_master.parquet
+!data/processed/train.parquet
+!data/processed/test.parquet
+
+# Figures — commit key figures used in master notebook; exclude interim ones
+outputs/figures/*.png
+outputs/figures/*.jpg
+!outputs/figures/.gitkeep
+!outputs/figures/02_logistic/
+!outputs/figures/03_random_forest/
+!outputs/figures/04_xgboost/
+!outputs/figures/06_cluster_predict/
+!outputs/figures/master/
+
+# DO commit benchmark table and serialized models
+!outputs/tables/benchmark.csv
+!outputs/models/*.pkl
+
+# Environment files
+.env
+*.env
+
+# Logs
+*.log
+
+# Claude Code internal files
+.claude/
+SESSION_SUMMARY.md
+BLOCKERS.md
+
+# Misplaced data files at repo root (correct path is data/processed/)
+data/customers_master.parquet
+data/test.parquet
+data/train.parquet

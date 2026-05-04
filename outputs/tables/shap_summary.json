@@ -1,0 +1,52 @@
+{
+  "sample_size": 2000,
+  "top_10_features": [
+    {
+      "feature": "days_since_last_txn",
+      "mean_abs_shap": 0.33345553278923035
+    },
+    {
+      "feature": "txn_velocity_change",
+      "mean_abs_shap": 0.1765504777431488
+    },
+    {
+      "feature": "is_reactivator",
+      "mean_abs_shap": 0.15594223141670227
+    },
+    {
+      "feature": "tenure_days",
+      "mean_abs_shap": 0.14829175174236298
+    },
+    {
+      "feature": "txn_count_h2",
+      "mean_abs_shap": 0.13228578865528107
+    },
+    {
+      "feature": "kyc_tier",
+      "mean_abs_shap": 0.13160330057144165
+    },
+    {
+      "feature": "txn_count",
+      "mean_abs_shap": 0.10238047689199448
+    },
+    {
+      "feature": "dormancy_days_before_reactivation",
+      "mean_abs_shap": 0.044508256018161774
+    },
+    {
+      "feature": "txn_count_h1",
+      "mean_abs_shap": 0.005908801686018705
+    },
+    {
+      "feature": "txn_per_active_day",
+      "mean_abs_shap": 0.0035924813710153103
+    }
+  ],
+  "figures": {
+    "summary": "C:\\Users\\User\\Desktop\\315 - retain IQ\\retainiq\\outputs\\figures\\08_shap\\shap_summary.png",
+    "bar": "C:\\Users\\User\\Desktop\\315 - retain IQ\\retainiq\\outputs\\figures\\08_shap\\shap_bar.png",
+    "waterfall_high_risk": "C:\\Users\\User\\Desktop\\315 - retain IQ\\retainiq\\outputs\\figures\\08_shap\\waterfall_high_risk.png",
+    "waterfall_medium_risk": "C:\\Users\\User\\Desktop\\315 - retain IQ\\retainiq\\outputs\\figures\\08_shap\\waterfall_medium_risk.png",
+    "waterfall_low_risk": "C:\\Users\\User\\Desktop\\315 - retain IQ\\retainiq\\outputs\\figures\\08_shap\\waterfall_low_risk.png"
+  }
+}

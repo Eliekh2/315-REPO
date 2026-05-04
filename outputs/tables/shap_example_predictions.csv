@@ -1,0 +1,4 @@
+row_idx,wallet_id,actual_churned,predicted_churn_probability
+5202,WLT-00116296,0,0.12383262
+27651,WLT-00234879,0,0.50000226
+60519,WLT-00355746,1,0.9605423

@@ -1,0 +1,4 @@
+cluster,n_test,n_churners,churn_rate,auc_cluster_model,auc_global_restricted,lift,fallback
+0,73447,6399,0.0871,0.7161,0.7161,0.0001,False
+1,1139,1139,1.0,,,,True
+2,522,57,0.1092,0.7298,0.7636,-0.0338,False

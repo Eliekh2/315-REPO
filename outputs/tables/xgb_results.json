@@ -1,0 +1,103 @@
+{
+  "vanilla_metrics": {
+    "auc": 0.759089344965791,
+    "pr_auc": 0.42548001124091617,
+    "f1": 0.3284640476528152,
+    "precision": 0.22475617448687465,
+    "recall": 0.6098749177090191,
+    "log_loss": 0.5467354452419996,
+    "brier": 0.18238530385938218,
+    "precision_at_k": 0.38743176674211155,
+    "recall_at_k": 0.38314680710994076,
+    "threshold": 0.5,
+    "top_k": 0.1,
+    "tn": 51536.0,
+    "fp": 15977.0,
+    "fn": 2963.0,
+    "tp": 4632.0
+  },
+  "tuned_metrics": {
+    "auc": 0.7589530437104903,
+    "pr_auc": 0.42578556388037087,
+    "f1": 0.3289568087243507,
+    "precision": 0.2260736650066565,
+    "recall": 0.6036866359447005,
+    "log_loss": 0.5532135896798891,
+    "brier": 0.18465971180319873,
+    "precision_at_k": 0.38796431899880174,
+    "recall_at_k": 0.3836734693877551,
+    "threshold": 0.5,
+    "top_k": 0.1,
+    "tn": 51817.0,
+    "fp": 15696.0,
+    "fn": 3010.0,
+    "tp": 4585.0
+  },
+  "best_params": {
+    "n_estimators": 825,
+    "max_depth": 6,
+    "learning_rate": 0.010247934625236994,
+    "subsample": 0.7050769959412769,
+    "colsample_bytree": 0.8296916790708804,
+    "min_child_weight": 9,
+    "gamma": 2.3553917884607727,
+    "reg_alpha": 2.6109111484916943,
+    "reg_lambda": 2.4821712164005265
+  },
+  "cv_auc": 0.7613607880992022,
+  "n_trials_run": 30,
+  "scale_pos_weight": 8.888713340574702,
+  "best_iter_vanilla": 35,
+  "best_iter_tuned": 249,
+  "top5_gain": [
+    [
+      "dormancy_days_before_reactivation",
+      8237.306641
+    ],
+    [
+      "is_reactivator",
+      6391.594238
+    ],
+    [
+      "days_since_last_txn",
+      864.108521
+    ],
+    [
+      "txn_count_h2",
+      714.762085
+    ],
+    [
+      "txn_count",
+      646.14856
+    ]
+  ],
+  "top5_perm": [
+    [
+      "days_since_last_txn",
+      0.073861
+    ],
+    [
+      "txn_velocity_change",
+      0.024118
+    ],
+    [
+      "is_reactivator",
+      0.020503
+    ],
+    [
+      "tenure_days",
+      0.014611
+    ],
+    [
+      "kyc_tier",
+      0.010855
+    ]
+  ],
+  "auc_delta_vs_rf": 0.0018929551099937658,
+  "auc_delta_vs_lr": 0.051170342469434194,
+  "lr_auc": 0.7077827012410561,
+  "rf_auc": 0.7570600886004966,
+  "mace_xgb_tuned": 0.30248532876144457,
+  "mace_lr": 0.3260046607835282,
+  "mace_rf": 0.27584274659103336
+}

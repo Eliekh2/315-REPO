@@ -43,14 +43,6 @@ jupyter notebook notebooks/00_master_submission.ipynb
 
 ---
 
-## Documents
-
-- **📖 [Project Story](docs/PROJECT_STORY.md)** — start here if you're new to the project
-- **🐛 [Issues & Fixes](docs/ISSUES_AND_FIXES.md)** — every non-trivial problem encountered and resolved
-- **🗂 [Project Plan](CLAUDE.md)** — full context, locked decisions, status tracker
-
----
-
 ## Project structure
 
 ```
@@ -64,15 +56,9 @@ retainiq/
 │   └── 06_cluster_then_predict.ipynb
 ├── src/                             ← Python modules (config, evaluate, etc.)
 ├── data/processed/                  ← train.parquet, test.parquet, master
-├── outputs/
-│   ├── models/                      ← .pkl files for all trained models
-│   ├── tables/benchmark.csv         ← canonical results table
-│   └── figures/                     ← all plots (dpi=150)
-└── docs/
-    ├── research_paper.md
-    ├── PROJECT_STORY.md
-    ├── ISSUES_AND_FIXES.md
-    └── ai_usage_log.md
+└── outputs/
+    ├── models/                      ← .pkl files for all trained models
+    └── tables/benchmark.csv         ← canonical results table
 ```
 
 ---

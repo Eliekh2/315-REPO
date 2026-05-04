@@ -1,0 +1,4 @@
+cluster,n_train,n_test,pct_train,n_churners_train,churn_rate,mean_txn_count,mean_total_amount_ngn,mean_avg_amount_ngn,mean_days_since_last_txn,mean_account_active_span_days,mean_txn_velocity_change,mean_txn_per_active_day,mean_unique_channels,mean_unique_txn_types,mean_is_reactivator,mean_dormancy_days_before_reactivation,mean_tenure_days,mean_fraud_rate
+0,293532,73447,97.7,25532,0.087,26.7074,827685.9922,31096.4295,44.6384,161.1547,0.0152,0.6321,2.234,3.3358,0.0,0.0,1197.9836,0.0017
+1,4589,1139,1.53,4589,1.0,19.5757,569182.9034,30337.8865,71.966,157.9237,-0.1586,0.4783,2.1811,3.2972,1.0,194.5032,1059.4953,0.005
+2,2308,522,0.77,260,0.1127,3.3497,98384.1691,27723.8626,43.4731,156.3709,-0.0934,0.079,2.318,3.5004,0.0087,1.0867,1167.6573,0.8592

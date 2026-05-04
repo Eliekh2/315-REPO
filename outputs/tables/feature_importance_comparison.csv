@@ -1,0 +1,16 @@
+Rank,LR_Top15_abs_coef,RF_Gini_Top15,RF_Permutation_Top15
+1,cat__kyc_tier_tier3,days_since_last_txn,days_since_last_txn
+2,num__days_since_last_txn,dormancy_days_before_reactivation,txn_velocity_change
+3,num__txn_velocity_change,is_reactivator,tenure_days
+4,num__tenure_days,txn_velocity_change,kyc_tier
+5,num__txn_count_h1,txn_count_h2,txn_count_h2
+6,cat__kyc_tier_tier2,txn_count,dormancy_days_before_reactivation
+7,cat__kyc_tier_tier1,tenure_days,is_reactivator
+8,num__txn_count_h2,kyc_tier,txn_count
+9,cat__linked_bank_UBA,txn_count_h1,txn_count_h1
+10,num__unique_device_os,txn_per_active_day,age
+11,cat__linked_bank_Zenith Bank,total_amount_ngn,unique_agents
+12,cat__linked_bank_Polaris Bank,total_fee_ngn,city
+13,num__unique_channels,std_balance_ngn,unique_txn_types
+14,cat__linked_bank_Kuda Bank,avg_balance_ngn,fraud_rate
+15,cat__referral_source_app_store,last_balance_ngn,fraud_count

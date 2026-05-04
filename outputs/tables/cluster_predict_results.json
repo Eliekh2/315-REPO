@@ -1,0 +1,111 @@
+{
+  "chosen_k": 3,
+  "k_range": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "inertias": [
+    3363491.1633153344,
+    3100385.027350766,
+    2888715.4955376005,
+    2647159.3678653385,
+    2491356.1882548747
+  ],
+  "silhouette_scores": [
+    0.6852495736093309,
+    0.6700391458343767,
+    0.1124888313036815,
+    0.11321883646804662,
+    0.11024152556549252
+  ],
+  "cluster_sizes_train": [
+    293532,
+    4589,
+    2308
+  ],
+  "cluster_sizes_test": [
+    73447,
+    1139,
+    522
+  ],
+  "cluster_churn_rates": [
+    0.087,
+    1.0,
+    0.1127
+  ],
+  "fallback_clusters": [
+    1
+  ],
+  "trained_clusters": [
+    0,
+    2
+  ],
+  "global_xgb_auc": 0.758953,
+  "cluster_predict_auc": 0.758489,
+  "cluster_predict_pr_auc": 0.42429,
+  "auc_delta_vs_global": -0.000464,
+  "per_cluster": [
+    {
+      "cluster": 0,
+      "n_test": 73447,
+      "n_churners": 6399,
+      "churn_rate": 0.0871,
+      "auc_cluster_model": 0.7161,
+      "auc_global_restricted": 0.7161,
+      "lift": 0.0001,
+      "fallback": false
+    },
+    {
+      "cluster": 1,
+      "n_test": 1139,
+      "n_churners": 1139,
+      "churn_rate": 1.0,
+      "auc_cluster_model": NaN,
+      "auc_global_restricted": NaN,
+      "lift": NaN,
+      "fallback": true
+    },
+    {
+      "cluster": 2,
+      "n_test": 522,
+      "n_churners": 57,
+      "churn_rate": 0.1092,
+      "auc_cluster_model": 0.7298,
+      "auc_global_restricted": 0.7636,
+      "lift": -0.0338,
+      "fallback": false
+    }
+  ],
+  "best_params_used": {
+    "n_estimators": 825,
+    "max_depth": 6,
+    "learning_rate": 0.010247934625236994,
+    "subsample": 0.7050769959412769,
+    "colsample_bytree": 0.8296916790708804,
+    "min_child_weight": 9,
+    "gamma": 2.3553917884607727,
+    "reg_alpha": 2.6109111484916943,
+    "reg_lambda": 2.4821712164005265
+  },
+  "n_estimators_used": 249,
+  "all_metrics": {
+    "auc": 0.7584894019923327,
+    "pr_auc": 0.4242904516090213,
+    "f1": 0.30819851933095693,
+    "precision": 0.20049151736166165,
+    "recall": 0.6659644502962475,
+    "log_loss": 0.5974282546883609,
+    "brier": 0.20499531351455463,
+    "precision_at_k": 0.38876314738383705,
+    "recall_at_k": 0.38446346280447663,
+    "threshold": 0.5,
+    "top_k": 0.1,
+    "tn": 47343.0,
+    "fp": 20170.0,
+    "fn": 2537.0,
+    "tp": 5058.0
+  }
+}

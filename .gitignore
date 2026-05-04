@@ -55,8 +55,6 @@ outputs/figures/*.jpg
 # Logs
 *.log
 
-# Claude Code internal files
-.claude/
 SESSION_SUMMARY.md
 BLOCKERS.md
 
